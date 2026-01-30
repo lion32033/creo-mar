@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creo-Mar | Branding & Apps Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary-cyan': '#00fcff',
+              'light-blue': '#4cc4ff',
+              'brand-blue': '#3484ea',
+              'dark-blue': '#236cc1',
+              'deep-navy': '#1c2d8d',
+              'text-main': '#1a1a1a',
+              'bg-light': '#f8fafd',
+              'miniport-bg': '#f3f6f7',
+            },
+            backgroundImage: {
+              'brand-gradient': 'linear-gradient(135deg, #1c2d8d, #3484ea)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+      
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      .wrapper {
+        padding: 6rem 1rem;
+      }
+      
+      .style1 { background: #ffffff; }
+      .style2 { background: #fdfdfd; }
+      .style3 { background: #f7f7f7; }
+      .style4 { background: #f0f0f0; border-top: 1px solid #e0e0e0; }
+
+      .scrolly-btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background: #3484ea;
+        color: white;
+        font-weight: 800;
+        border-radius: 0.5rem;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .scrolly-btn:hover {
+        background: #1c2d8d;
+        transform: translateY(-2px);
+      }
+
+      section, article, [id] {
+        scroll-margin-top: 5rem;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4"
+      }
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-bg-light text-text-main antialiased">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
