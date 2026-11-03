@@ -41,7 +41,7 @@ const App: React.FC = () => {
 
             <div className="bg-white p-10 rounded-xl shadow-sm border border-gray-100 text-left text-gray-500 text-sm leading-relaxed space-y-4 mb-16">
               <p className="font-bold text-base text-deep-navy">Imprint</p>
-              <p>Information according to § 5 TMG</p>
+              <p>Information according to § 5 DDG</p>
               <p>
                 O. Abrouk
                 <br />
